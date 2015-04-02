@@ -60,7 +60,8 @@ body{
     text-align: center;
 }
 .logform{
-    width:75%;
+/*    width:75%;*/
+    width: 310px;
     margin:auto;
     margin-top: 75px;
 }
@@ -71,16 +72,18 @@ body{
     box-shadow: rgb(204, 204, 204) 0px 0px 0px;
     -moz-box-shadow:rgb(204, 204, 204) 0px 0px 0px;
     -webkit-box-shadow:rgb(204, 204, 204) 0px 0px 0px;
+    
 }
 .midbutton{
-    width:75%;
+/*    width:75%;*/
+    width: 310px;
     margin:auto;
     
-    position: absolute;
-  left: 12.5%;
-  top: 410px;
+/*    position: absolute;*/
+/*  left: 12.5%;*/
+/*  top: 410px;*/
     
-/*    margin-top: 150px;*/
+    margin-top: 90px;
     
     
 }
@@ -100,7 +103,7 @@ body{
 }
 .inputcontainer{
     height:80px;
-    border-radius: 8px;
+    border-radius: 15px;
 /*    padding-top: 10px;*/
 }
 .disfromcon{
@@ -109,17 +112,17 @@ body{
 
 input::-webkit-input-placeholder {
 color: #fff !important; /* WebKit browsers */
-    text-align: center
+    text-align: center;
 }
 input:-moz-placeholder {
 color: #fff !important; /*Mozilla Firefox 4 to 18 */
-    text-align: center
+    text-align: center;
 }
 input::-moz-placeholder {
 color: #fff !important; /* Mozilla Firefox 19+ */
-    text-align: center
+    text-align: center;
 }
 input:-ms-input-placeholder {
 color: #fff !important; /* Internet Explorer 10+ */
-    text-align: center
+    text-align: center;
 }
