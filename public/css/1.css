@@ -89,7 +89,9 @@ body{
     width:100%;
     background-color: rgb(255, 85, 85);
     color: #fff;
-    font-family:"Tahoma";
+/*    font-family:"Tahoma";*/
+    font-size: 22px;
+    font-weight:bold;
 /*    margin-top: 150px;*/
         
 }
