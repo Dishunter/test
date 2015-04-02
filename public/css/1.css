@@ -28,6 +28,7 @@ h1,h2,h3{
 }*/
 body{
     width:auto;
+    height: auto;
     margin:auto;
     -webkit-touch-callout:none;
     font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -35,42 +36,53 @@ body{
     line-height:inherit}
 .logtop{
     background-color: rgb(255, 85, 85);
-    height: 95px;
+    height: 60px;
     vertical-align: middle;
-    padding-top: 10px;
+    padding-top: 21px;
 }
 .showwhite{
     color: #fff;
 }
 .topleft{
     text-align: left;
+    
 }
 .topright{
     
     text-align: right;
 }
 .topmid{
-    font-family:"Tahoma";
-    font-size: 17px;
+/*    font-family:"Tahoma";*/
+    font-size: 22px;
     font-weight:bold;
+    margin-top: -5px;
     letter-spacing: 2px;
     text-align: center;
 }
 .logform{
-    width:60%;
+    width:75%;
     margin:auto;
-    margin-top: 150px;
+    margin-top: 75px;
 }
 .greyback{
     background-color: rgb(204, 204, 204);
 /*    margin-top:7px;*/
 /*    vertical-align:middle;*/
     box-shadow: rgb(204, 204, 204) 0px 0px 0px;
+    -moz-box-shadow:rgb(204, 204, 204) 0px 0px 0px;
+    -webkit-box-shadow:rgb(204, 204, 204) 0px 0px 0px;
 }
 .midbutton{
-    width:60%;
+    width:75%;
     margin:auto;
-    margin-top: 150px;
+    
+    position: absolute;
+  left: 12.5%;
+  top: 410px;
+    
+/*    margin-top: 150px;*/
+    
+    
 }
 .bigbutton{
 /*    margin:auto;*/
@@ -82,12 +94,15 @@ body{
         
 }
 .disfromup{
-    margin-top: 30px;
+    margin-top: 18px;
 }
 .inputcontainer{
-    height:60px;
+    height:80px;
     border-radius: 8px;
-    padding-top: 7px;
+/*    padding-top: 10px;*/
+}
+.disfromcon{
+    margin-top: 16px;
 }
 
 input::-webkit-input-placeholder {
