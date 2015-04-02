@@ -35,7 +35,7 @@ body{
     line-height:inherit}
 .logtop{
     background-color: rgb(255, 85, 85);
-    height: 40px;
+    height: 95px;
     vertical-align: middle;
     padding-top: 10px;
 }
@@ -63,8 +63,8 @@ body{
 }
 .greyback{
     background-color: rgb(204, 204, 204);
-    margin-top:7px;
-    
+/*    margin-top:7px;*/
+/*    vertical-align:middle;*/
     box-shadow: rgb(204, 204, 204) 0px 0px 0px;
 }
 .midbutton{
@@ -81,11 +81,13 @@ body{
 /*    margin-top: 150px;*/
         
 }
-
+.disfromup{
+    margin-top: 30px;
+}
 .inputcontainer{
     height:60px;
     border-radius: 8px;
-    
+    padding-top: 7px;
 }
 
 input::-webkit-input-placeholder {
