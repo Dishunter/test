@@ -30,6 +30,7 @@ body{
     width:auto;
     height: auto;
     margin:auto;
+    background-color: #fff;
     -webkit-touch-callout:none;
     font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color:#f3f3f3;
@@ -155,7 +156,7 @@ color: #fff !important; /* Internet Explorer 10+ */
 }
 
 .radios {
-    width: 390px;
+    width: 100%;
     margin:auto;
     margin-top:18px;
 }
