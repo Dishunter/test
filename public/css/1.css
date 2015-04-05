@@ -112,17 +112,21 @@ body{
 
 input::-webkit-input-placeholder {
 color: #fff !important; /* WebKit browsers */
-    text-align: center;
+    text-align: left;
+    font-size: 12px;
 }
 input:-moz-placeholder {
 color: #fff !important; /*Mozilla Firefox 4 to 18 */
-    text-align: center;
+    text-align: left;
+    font-size: 12px;
 }
 input::-moz-placeholder {
 color: #fff !important; /* Mozilla Firefox 19+ */
-    text-align: center;
+    text-align: left;
+    font-size: 12px;
 }
 input:-ms-input-placeholder {
 color: #fff !important; /* Internet Explorer 10+ */
-    text-align: center;
+    text-align: left;
+    font-size: 12px;
 }
