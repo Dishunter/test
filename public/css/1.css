@@ -64,6 +64,8 @@ body{
     text-align: center;
 }
 .nicknamespace{
+    width: 100%;
+    margin:auto;
     margin-top: 5px;
     
 }
