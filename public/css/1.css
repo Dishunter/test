@@ -229,3 +229,44 @@ color: #fff !important; /* Internet Explorer 10+ */
     font-size: 22px;
     font-weight:bold;
 }
+
+.largefont {
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.largemenu {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.actsday {
+/*    width:inherit;*/
+    padding-left:20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.actstitle {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.mapgrey {
+    color: rgb(204, 204, 204);
+}
+
+.actstatus {
+    margin-top: 16px;
+    text-align: center;
+}
+
+
+
+.postbutton {
+    width: 310px;
+    margin:auto;
+    margin-top: 30px;
+}
